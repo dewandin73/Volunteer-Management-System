@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <?php include 'nav.php';?>
+    <?php include 'nav.php'; ?>
       <div class="hero" id="home">
         <div class="text container">
           <p class="pre-title">One step for global change</p>
