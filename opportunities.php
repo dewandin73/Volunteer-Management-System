@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<?php include 'nav1.php'; ?>
+  <?php include 'nav1.php'; ?>
     <div class="dashboard-container">
         <div class="welcome-section">
             <h1>Volunteer Opportunities</h1>
@@ -110,8 +110,6 @@
         </div>
     </div>
     
-    <footer>
-        <div class="logo">© 2025 · Volunteer<span>Management</span>System · All rights reserved</div>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
