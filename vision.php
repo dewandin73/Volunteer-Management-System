@@ -130,7 +130,7 @@
 
     <div class="cta-section w3-highway-blue w3-padding-large">
       <div class="cta-content">
-        <h2>Join Our Movement</h2>
+        <h2 style="font-weight: bold; color: black;">Join Our Movement</h2>
         <p>Be part of realizing this vision for transformative volunteerism in Bangladesh</p>
         <div class="cta-buttons">
           <a href="signup.html" class="w3-button w3-round-large w3-white w3-hover-white w3-highway-blue">Become a Volunteer</a>
