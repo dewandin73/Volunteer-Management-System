@@ -25,11 +25,11 @@
             <a href="index.php#services">Services</a>
             <a href="careers.php">Careers</a>
             <a href="index.php#contact">Contact</a>
-            <a href="login.html">Login</a>
+            <a href="login.php">Login</a>
         </div>
         <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
             <div class="mobile-logo" style="display: inline;">
-                <a href="index.html" class="logo">BE A<span> VOLUNTEER</span></a>
+                <a href="index.php" class="logo">BE A<span> VOLUNTEER</span></a>
                 <span style="width: 100%;"></span>
                 <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
             </div>
@@ -37,7 +37,7 @@
             <a href="index.php#services" onclick="toggleMobileNavigation()">Services</a>
             <a href="careers.php" onclick="toggleMobileNavigation()">Careers</a>
             <a href="index.php#contact" onclick="toggleMobileNavigation()">Contact</a>
-            <a href="login.html" onclick="toggleMobileNavigation()">Login</a>
+            <a href="login.php" onclick="toggleMobileNavigation()">Login</a>
         </div>
     </nav>
 </div>
