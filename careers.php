@@ -128,7 +128,7 @@
   
     <div class="careers-cta w3-highway-blue w3-padding-large">
         <div class="cta-content">
-            <h2>Can't Find Your Perfect Role?</h2>
+            <h2 style="font-weight: bold; color: black;">Can't Find Your Perfect Role?</h2>
             <p>We're always looking for talented individuals. Send us your resume and we'll contact you when matching positions open.</p>
             <a href="talent-pool.html" class="w3-button w3-round-large w3-white w3-hover-white w3-highway-blue">Join Our Talent Pool</a>
         </div>
