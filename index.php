@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +14,9 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+
     <?php include 'nav.php'; ?>
+
       <div class="hero" id="home">
         <div class="text container">
           <p class="pre-title">One step for global change</p>
@@ -124,7 +127,7 @@
 
               <div class="content w3-container">
                 <div class="card-text" style="padding-bottom: 20px;">
-                  <img src="images/vms.png" alt="works">
+                  <img src="images/VMS.png" alt="works">
                 </div>
               </div>
               <footer class="w3-container" style="padding: 0">
@@ -181,12 +184,12 @@
         </div>
         <div class="form w3-margin-top">
           <div class="container w3-round-xlarge">
-            <form class="w3-highway-blue w3-padding-large w3-round-large" action="feedback.php" method="post">
+            <form class="w3-highway-blue w3-padding-large w3-round-large">
               <label for="fname">First Name</label>
-              <input type="text" id="fname" name="fname" placeholder="Your fname">
+              <input type="text" id="name" name="name" placeholder="Your name">
 
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lname" placeholder="Your lname">
+              <input type="text" id="email" name="email" placeholder="Your email">
 
               <label for="feedback">Feedback</label>
               <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
@@ -197,7 +200,8 @@
           </div>
         </div>
       </div>
-      <?php include 'footer.php';?>
+
+    <?php include 'footer.php'; ?>
 
   <script src="script.js"></script>
   </body>
