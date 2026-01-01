@@ -1,3 +1,7 @@
+<?php
+session_start();
+$user_name = $_SESSION['fullname'] ?? 'Volunteer';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +22,7 @@
 
     <div class="dashboard-container w3-padding-large">
       <div class="welcome-section w3-padding-large">
-        <h1>Welcome Back, <span class="user-name">Devon!</span></h1>
+        <h1>Welcome Back, <span class="user-name" style="color: #2b579a; font-weight: bold;"><?php echo htmlspecialchars($user_name); ?>!</span></h1>
         <p>Here's what's happening with your volunteer activities</p>
       </div>
 
@@ -193,6 +197,26 @@
     </div>
 
     <?php include 'footer.php'; ?>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script>
+      function toggleMobileNavigation() {
+        const mobileNav = document.getElementById('mobile-sidenav');
+        if (mobileNav.style.width === '70%' || mobileNav.style.width === '40%' || mobileNav.style.width === '100%') {
+          mobileNav.style.width = '0';
+        } else {
+          if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 480) {
+              mobileNav.style.width = '100%';
+            } else {
+              mobileNav.style.width = '70%';
+            }
+          } else {
+            mobileNav.style.width = '40%';
+          }
+        }
+      }
+    </script>
   </body>
 </html>
