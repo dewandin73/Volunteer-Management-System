@@ -28,7 +28,7 @@
         </div>
         <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
           <div class="mobile-logo" style="display: inline;">
-            <a href="index.html" class="logo">BE A<span> VOLUNTEER</span></a>
+            <a href="index.php" class="logo">BE A<span> VOLUNTEER</span></a>
             <span style="width: 100%;"></span>
             <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
           </div>
