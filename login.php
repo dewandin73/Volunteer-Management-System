@@ -1,7 +1,7 @@
 <?php
 session_start();
-// Add this at the top of your login.php file
-if (isset($_SESSION['user_id'])) {
+// Only redirect if user is properly logged in
+if (isset($_SESSION['user_id']) && !empty($_SESSION['user_id']) && isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     header('Location: dashboard.php');
     exit();
 }
@@ -27,7 +27,8 @@ if (isset($_SESSION['user_id'])) {
 </head>
 
 <body class="login-page">
-  <?php include 'nav.php'; ?>
+  
+<?php include 'nav.php'; ?>
 
   <div class="login-container w3-padding-large">
     <div class="login-card animate__animated animate__fadeIn">
@@ -120,8 +121,5 @@ if (isset($_SESSION['user_id'])) {
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
-
-
 </body>
-
 </html>
