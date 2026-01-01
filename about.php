@@ -115,9 +115,9 @@
 
     <div class="w3-highway-blue w3-padding-large">
         <div class="cta-content">
-            <h2>Ready to Make a Difference?</h2>
+            <h2 style="font-weight: bold; color: black;">Ready to Make a Difference?</h2>
             <p>Join our community of volunteers and start creating positive change today.</p>
-            <a href="register.html" class="w3-button w3-round-large w3-white w3-hover-white w3-highway-blue">Sign Up Now</a>
+            <a href="register.php" class="w3-button w3-round-large w3-white w3-hover-white w3-highway-blue">Sign Up Now</a>
         </div>
     </div>
 
